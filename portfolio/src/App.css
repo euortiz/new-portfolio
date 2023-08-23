@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 6px 10px;
+  font-size: 1.2rem;
+  font-family: "Passion One", "cursive";
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #5f2fe7;
+  border-radius: 999px; /* Or use a larger value for a more rounded look */
+}
+
+@media (max-width: 640px) {
+  /* Adjust the breakpoint as needed */
+  .nav-container {
+    flex-direction: column;
+    margin-top: 343px;
+    background-color: #140c2b;
+    width: 100%;
+    border-radius: 0 0 31px 31px;
+    height: auto;
+    position: fixed;
+  }
+
+  .nav-button {
+    float: right;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 10px 0;
+  }
+}
