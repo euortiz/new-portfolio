@@ -4,7 +4,7 @@ import zyme from "../assets/10zyme.svg";
 const Experience = () => {
   return (
     <div
-      className="xl:h-screen bg-gradient-to-b from-black to-roxo flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
+      className="bg-gradient-to-b from-black to-roxo flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
       id="experience"
     >
       <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-20">

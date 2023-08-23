@@ -8,7 +8,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="h-[80px] bg-cinza flex justify-between items-center fixed w-screen top-0 z-50">
+    <div className="h-[80px] bg-cinza flex justify-between items-center fixed w-screen top-0 z-5">
       <h1 className="text-white text-[3rem] font-pone ml-5 cursor-pointer">
         GOrtiz
       </h1>
@@ -23,7 +23,7 @@ const Nav = () => {
       <ul
         className={`${
           showMenu ? "block" : "hidden"
-        } sm:flex flex-col sm:flex-row items-center mt-4 sm:mt-0 nav-container`}
+        } sm:flex flex-col sm:flex-row items-center mt-4 sm:mt-0 nav-container mr-10`}
       >
         <li className="nav-item">
           <a href="#about" className="nav-link">
