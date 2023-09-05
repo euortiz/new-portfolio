@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "animate.css";
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -8,8 +9,8 @@ const Nav = () => {
   };
 
   return (
-    <div className="h-[80px] bg-cinza flex justify-between items-center fixed w-screen top-0 z-5">
-      <h1 className="text-white text-[3rem] font-pone ml-5 cursor-pointer">
+    <div className="h-[80px] bg-cinza flex justify-between items-center fixed w-screen top-0 z-40">
+      <h1 className="text-white text-[3rem] font-pone ml-5 cursor-pointer animate__animated animate__fadeInLeft">
         GOrtiz
       </h1>
       <div className="sm:hidden mr-5 fixed right-0">
@@ -23,7 +24,7 @@ const Nav = () => {
       <ul
         className={`${
           showMenu ? "block" : "hidden"
-        } sm:flex flex-col sm:flex-row items-center mt-4 sm:mt-0 nav-container mr-10`}
+        } animate__animated animate__fadeInRight  sm:flex flex-col sm:flex-row items-center mt-4 sm:mt-0 nav-container mr-10`}
       >
         <li className="nav-item">
           <a href="#about" className="nav-link">

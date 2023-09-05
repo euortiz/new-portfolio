@@ -12,7 +12,7 @@ const Hero = () => {
       id="about"
     >
       <div>
-        <div>
+        <div className="animate__animated animate__fadeInLeft">
           <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone">
             HEY,I'M GUSTAVO<span className="text-yellow-400">!</span>
           </h1>
@@ -27,16 +27,16 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          <ul className="flex my-5">
-            <li className="mr-5 bg-white rounded-full transition-colors duration-300 ease-in-out group-hover:bg-black">
+          <ul className="flex my-5 animate__animated animate__fadeInLeft">
+            <li className="mr-5 bg-white rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110">
               <a href="https://github.com/euortiz" target="blank">
                 <img
                   src={github}
-                  className="sm:w-12 sm:h-12 w-8 h-8 cursor-pointer"
+                  className="sm:w-12 sm:h-12 w-8 h-8 cursor-pointer "
                 />
               </a>
             </li>
-            <li className="mr-5 bg-white rounded-full">
+            <li className="mr-5 bg-white rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110">
               <a href="https://www.linkedin.com/in/eu-ortiz/" target="blank">
                 <img
                   src={linkedin}
@@ -44,7 +44,7 @@ const Hero = () => {
                 />
               </a>
             </li>
-            <li className="mr-5 bg-white rounded-full">
+            <li className="mr-5 bg-white rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110">
               <a href="https://wa.me/+34692124952" target="blank">
                 <img
                   src={whatsapp}
@@ -52,7 +52,7 @@ const Hero = () => {
                 />
               </a>
             </li>
-            <li className="mr-5 bg-white rounded-full">
+            <li className="mr-5 bg-white rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110">
               <a href="mailto:guortiz098@hotmail.com" target="blank">
                 <img
                   src={email}
@@ -63,7 +63,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="animate__animated animate__fadeInRight">
         <img src={perfil} className="md:w-[600px] h-auto w-[300px]" />
       </div>
     </div>

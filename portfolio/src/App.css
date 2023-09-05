@@ -22,12 +22,13 @@
   /* Adjust the breakpoint as needed */
   .nav-container {
     flex-direction: column;
-    margin-top: 343px;
+    margin-top: 338px;
     background-color: #140c2b;
     width: 100%;
     border-radius: 0 0 31px 31px;
     height: auto;
     position: fixed;
+    padding: 3%;
   }
 
   .nav-button {

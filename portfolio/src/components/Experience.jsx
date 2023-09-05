@@ -16,7 +16,7 @@ const Experience = () => {
         <div className="ml-0 sm:ml-5">
           <h2 className="text-white font-pone text-[2rem]">10 ZYME</h2>
           <h3 className="text-white font-poppins font-bold text-[1.5rem]">
-            Front-End - Internship | |{" "}
+            Frontend Developer - Internship | |{" "}
             <span className="text-yellow-300">AUGUST 2023 - Currently</span>
           </h3>
           <p className="text-white font-poppins text-[1rem] sm:text-sm md:text-md">
@@ -35,14 +35,15 @@ const Experience = () => {
         <div className="ml-0 sm:ml-5">
           <h2 className="text-white font-pone text-[2rem]">KOSI AFRICA</h2>
           <h3 className="text-white font-poppins font-bold text-[1.5rem]">
-            Web Developer - Volunteer |{" "}
+            Frontend Developer - Volunteer |{" "}
             <span className="text-yellow-300">JULY 2023 - Currently</span>
           </h3>
           <p className="text-white font-poppins text-[1rem] sm:text-sm md:text-md">
-            As a web developer in Kosi, Africa, I was responsible for website
-            maintenance, utilizing tools such as WordPress. This role afforded
-            me the opportunity to collaborate with a talented and diverse team,
-            contributing to a dynamic and enriching work environment.
+            As a Frontend developer in Kosi Africa, I was responsible for
+            website maintenance, utilizing tools such Next.js, React, Tailwind.
+            This role afforded me the opportunity to collaborate with a talented
+            and diverse team, contributing to a dynamic and enriching work
+            environment.
           </p>
         </div>
       </div>
