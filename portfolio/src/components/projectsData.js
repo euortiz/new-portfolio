@@ -3,14 +3,31 @@ import bank from "../assets/bank.png";
 import guspotilist from "../assets/guspotilist.png";
 import ooptodo from "../assets/ooptodo.png";
 import elpuerto from "../assets/elpuerto.png";
+import carprojeto from "../assets/carprojeto.png";
+
 
 import javascript from "../assets/javascript.svg";
 import react from "../assets/react.svg";
 import tailwind from "../assets/tailwind.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
+import typescript from "../assets/typescript.svg";
+import nextjs from "../assets/nextjs.svg";
+import spotify from "../assets/spotify.png";
+
+
+
 
 const projectsData = [
+  {
+    image: carprojeto,
+    title: "CarHub",
+    description:
+      "CarHub is a web application designed to enhance the user experience when browsing and exploring different car options.",
+    technologies: [nextjs, react, typescript],
+    githubLink: "https://github.com/euortiz/car_store",
+    viewProjectLink: "https://car-store-2v8q.vercel.app/",
+  },
   {
     image: palmeiras,
     title: "Palmeiras Website",
@@ -34,7 +51,7 @@ const projectsData = [
     title: "Guspotilist",
     description:
       "This App Project made with JavaScript and the Spotify API enables users to seamlessly save playlists to their Spotify accounts.",
-    technologies: [html, css, javascript],
+    technologies: [html, css, javascript, spotify],
     githubLink: "https://github.com/euortiz/spotify-playlist",
     viewProjectLink: "https://gustilist.surge.sh/",
   },
