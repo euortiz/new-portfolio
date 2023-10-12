@@ -1,39 +1,83 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import React from "react";
-import palmeiras from "../assets/palmeiras.svg";
 import github from "../assets/github.svg";
 import projectsData from "./projectsData";
+import Slider from "react-slick";
+
 
 const Projects = () => {
+
+  
+      var settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+
   return (
     <div
-      className="bg-gradient-to-b from-roxo to-black flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap lg:gap-10"
+      className="flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center lg:gap-10"
       id="projects"
     >
-      <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-20">
+      <h1 className="text-white text-[2.5rem] sm:text-[4rem] font-pone my-10">
         PROJECTS
       </h1>
+
+    <Slider {...settings} className="w-[90%]">
+
       {projectsData.map((project, index) => (
         <div
           key={index}
-          className="flex flex-wrap lg:flex-nowrap items-center justify-center bg-cinza p-2 rounded-[27px] mb-5"
+          className="items-center justify-center bg-cinza p-2 rounded-[27px] mb-5 shadow-xl"
         >
-          <div>
+          <div className="flex items-center justify-center">
             <img
               src={project.image}
-              className="rounded-[27px] lg:w-[550px] lg:h-[400px]"
+              className="rounded-[27px] w-auto h-auto"
+              alt="Project Image"
             />
           </div>
           <div className="flex items-center justify-center flex-col">
             <h2 className="text-white font-pone text-[2rem]">
               {project.title}
             </h2>
-            <p className="text-white font-poppins text-[1rem] md:text-md lg:w-[400px] sm:mx-5 my-3">
+            <p className="text-white font-poppins text-[1rem] md:text-md sm:mx-5 my-3">
               {project.description}
             </p>
             <ul className="flex items-center justify-center">
               {project.technologies.map((tech, techIndex) => (
                 <li key={techIndex} className="mr-5 my-2">
-                  <img src={tech} className="w-[3rem] h-[3rem]" />
+                  <img src={tech} className="w-[3rem] h-[3rem]" alt="Stack Image"/>
                 </li>
               ))}
             </ul>
@@ -54,12 +98,13 @@ const Projects = () => {
               <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700"></span>
               <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-gray-400 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
               <span className="relative ">
-                <img src={github} className="w-[40px] z-10" />
+                <img src={github} className="w-[40px] z-10" alt="Github"/>
               </span>
             </a>
           </div>
         </div>
       ))}
+      </Slider>
     </div>
   );
 };

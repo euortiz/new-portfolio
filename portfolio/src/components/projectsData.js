@@ -1,4 +1,4 @@
-import palmeiras from "../assets/palmeiras.svg";
+import palmeiras from "../assets/palmeiras.png";
 import bank from "../assets/bank.png";
 import guspotilist from "../assets/guspotilist.png";
 import ooptodo from "../assets/ooptodo.png";

@@ -5,10 +5,10 @@ import phone from "../assets/phone.svg";
 const Contact = () => {
   return (
     <div
-      className="xl:h-screen bg-gradient-to-b from-roxo to-black flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
+      className="xl:h-screen flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
       id="contact"
     >
-      <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-20">
+      <h1 className="text-white text-[2.5rem] sm:text-[4rem] font-pone my-10">
         CONTACT
       </h1>
       <form
@@ -16,7 +16,7 @@ const Contact = () => {
         role="form"
         action="https://formsubmit.co/guortiz098@hotmail.com"
         method="POST"
-        className="bg-black opacity-50 rounded-[30px] p-10 flex flex-col md:flex-row sm:w-[600px] md:w-[710px] mb-20"
+        className="bg-black opacity-50 rounded-[30px] p-10 flex flex-col md:flex-row sm:w-[600px] md:w-[710px] mb-20 shadow-xl"
       >
         <div className="flex flex-col mr-0 md:mr-20 md:w-[50%]">
           <input
@@ -82,13 +82,13 @@ const Contact = () => {
         <div>
           <ul className="flex flex-col items-start">
             <li className="items-center justify-center flex my-3">
-              <img src={location} className="w-[25px] h-[25px]" />
+              <img src={location} className="w-[25px] h-[25px]" alt="Location" />
               <a className="text-white font-poppins ml-3">
                 London, United Kingdom
               </a>
             </li>
             <li className="items-center justify-center flex my-3">
-              <img src={email2} className="w-[25px] h-[25px]" />
+              <img src={email2} className="w-[25px] h-[25px]" alt="e-mail" />
               <a
                 className="text-white font-poppins ml-3 cursor-pointer"
                 href="mailto:guortiz098@hotmail.com"
@@ -98,7 +98,7 @@ const Contact = () => {
               </a>
             </li>
             <li className="items-center justify-center flex my-3">
-              <img src={phone} className="w-[25px] h-[25px]" />
+              <img src={phone} className="w-[25px] h-[25px]" alt="phone"/>
               <a
                 href="https://wa.me/+34692124952"
                 target="_blank"

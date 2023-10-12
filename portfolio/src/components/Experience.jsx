@@ -4,15 +4,15 @@ import zyme from "../assets/10zyme.svg";
 const Experience = () => {
   return (
     <div
-      className="bg-gradient-to-b from-black to-roxo flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
+      className="flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-wrap"
       id="experience"
     >
-      <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-20">
+      <h1 className="text-white text-[2.5rem] sm:text-[4rem] font-pone mt-40 mb-10">
         EXPERIENCE
       </h1>
 
       <div className="flex sm:flex-nowrap flex-wrap justify-center items-center mb-20 bg-cinza rounded-[2rem] p-5 border-2 border-white xl:w-[50rem] lg:h-[15rem] md:w-[50rem] w-[22rem] h-[40rem] sm:h-[28rem] sm:w-[30rem]">
-        <img src={zyme} className="rounded-full bg-black p-2 my-5" />
+        <img src={zyme} className="rounded-full bg-black p-2 my-5" alt="10 zyme"/>
         <div className="ml-0 sm:ml-5">
           <h2 className="text-white font-pone text-[2rem]">10 ZYME</h2>
           <h3 className="text-white font-poppins font-bold text-[1.5rem]">
@@ -31,7 +31,7 @@ const Experience = () => {
       </div>
 
       <div className="flex sm:flex-nowrap flex-wrap justify-center items-center mb-20 bg-cinza rounded-[2rem] p-5 border-2 border-white xl:w-[50rem] lg:h-[15rem] md:w-[50rem] w-[22rem] h-[40rem] sm:h-[28rem] sm:w-[30rem]">
-        <img src={kosi} className="rounded-full bg-black p-2 my-5" />
+        <img src={kosi} className="rounded-full bg-black p-2 my-5" alt="Kosi Africa"/>
         <div className="ml-0 sm:ml-5">
           <h2 className="text-white font-pone text-[2rem]">KOSI AFRICA</h2>
           <h3 className="text-white font-poppins font-bold text-[1.5rem]">

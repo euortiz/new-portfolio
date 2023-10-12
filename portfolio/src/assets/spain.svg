@@ -85,7 +85,7 @@
     <path fill="#C8B32F" fill-rule="nonzero" d="M156.82 274.35c1.19.65 2.85 1.74 4.67 2.1l-.08-43.81h-4.49v41.71h-.1z"/>
     <path fill="none" stroke="#000" stroke-width=".03" stroke-miterlimit="22.926" d="M156.82 274.35c1.19.65 2.85 1.74 4.67 2.1l-.08-43.81h-4.49v41.71h-.1z"/>
     <path fill="#C8B32F" fill-rule="nonzero" d="M148.38 258.94c.1 5.42 2.3 9.45 4.4 12.02V232.9h-4.3l-.1 26.04z"/>
-    <path fill="none" stroke="#000" stroke-width=".03" stroke-linejoin="round" stroke-miterlimit="22.926" d="M148.38 258.94c.1 5.42 2.3 9.45 4.4 12.02V232.9h-4.3l-.1 26.04z"/>
+    <path fill="none" stroke="#000" stroke-width=".03" strokeLinejoin="round" stroke-miterlimit="22.926" d="M148.38 258.94c.1 5.42 2.3 9.45 4.4 12.02V232.9h-4.3l-.1 26.04z"/>
     <path fill="#C6B52F" fill-rule="nonzero" d="M165.44 277.47c1.74.19 3.12.19 4.49 0v-44.76h-4.49v44.76z"/>
     <path fill="none" stroke="#000" stroke-width=".03" stroke-miterlimit="22.926" d="M165.44 277.47c1.74.19 3.12.19 4.49 0v-44.76h-4.49v44.76z"/>
     <path fill="#C8B32F" fill-rule="nonzero" d="M173.97 276.55c1.74-.36 3.75-1.47 4.67-2.01v-41.83h-4.49l-.18 43.84z"/>

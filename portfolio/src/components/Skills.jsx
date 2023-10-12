@@ -15,12 +15,12 @@ import uk from "../assets/uk.svg";
 const Skills = () => {
   return (
     <div
-      className="xl:h-screen bg-gradient-to-b from-black to-roxo flex xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-col bottom-5 "
+      className="xl:h-screen flex xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center flex-col bottom-5 "
       id="skills"
     >
-      <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-20">
+      <h2 className="text-white text-[2.5rem] sm:text-[4rem] font-pone my-10">
         SKILLS
-      </h1>
+      </h2>
       <p className="text-white font-poppins text-[1rem] sm:text-sm md:text-md mb-10 md:w-[45rem]">
         As a skilled developer with experience in Front-End technologies,
         including React, and some exposure to back-end languages, I contribute
@@ -28,43 +28,43 @@ const Skills = () => {
         bridging the gap between user interface and server-side logic.
       </p>
       <ul className="flex flex-wrap items-center justify-center">
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={html} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={html} className="w-[51px] h-[51px]" alt="HTML"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={css} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={css} className="w-[51px] h-[51px]" alt="CSS"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={javascript} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={javascript} className="w-[51px] h-[51px]" alt="JavaScript"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={react} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={react} className="w-[51px] h-[51px]" alt="React"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={nextjs} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={nextjs} className="w-[51px] h-[51px]" alt="Next JS"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={tailwind} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={tailwind} className="w-[51px] h-[51px]" alt="Tailwind CSS"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={nodejs} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={nodejs} className="w-[51px] h-[51px]" alt="Node JS"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat">
-          <img src={git1} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 animate_animated animate__heartBeat shadow-xl">
+          <img src={git1} className="w-[51px] h-[51px]" alt="GIT"/>
         </li>
       </ul>
-      <h1 className="text-white text-[3rem] sm:text-[4rem] font-pone my-10">
+      <h2 className="text-white text-[2.5rem] sm:text-[4rem] font-pone my-10 items-center justify-center">
         SPOKEN LANGUAGES
-      </h1>
+      </h2>
       <ul className="flex flex-wrap items-center justify-center">
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat">
-          <img src={brazil} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat shadow-xl">
+          <img src={brazil} className="w-[51px] h-[51px]" alt="Brazil flag"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat">
-          <img src={uk} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat shadow-xl">
+          <img src={uk} className="w-[51px] h-[51px]" alt="United Kingdom flag"/>
         </li>
-        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat">
-          <img src={spain} className="w-[51px] h-[51px]" />
+        <li className="rounded-full bg-gray-500 p-3 border-4 border-black m-3 flex flex-col items-center animate_animated animate__heartBeat shadow-xl">
+          <img src={spain} className="w-[51px] h-[51px]" alt="Spain flag"/>
         </li>
       </ul>
     </div>
