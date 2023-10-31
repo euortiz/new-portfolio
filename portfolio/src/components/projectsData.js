@@ -1,9 +1,9 @@
-import palmeiras from "../assets/palmeiras.png";
-import bank from "../assets/bank.png";
-import guspotilist from "../assets/guspotilist.png";
-import ooptodo from "../assets/ooptodo.png";
-import elpuerto from "../assets/elpuerto.png";
-import carprojeto from "../assets/carprojeto.png";
+import palmeiras from "../assets/palmeiras.svg";
+import bank from "../assets/bank.svg";
+import guspotilist from "../assets/guspotilist.svg";
+import ooptodo from "../assets/ooptodo.svg";
+import elpuerto from "../assets/elpuerto.svg";
+import carprojeto from "../assets/carprojeto.svg";
 
 
 import javascript from "../assets/javascript.svg";
@@ -13,7 +13,8 @@ import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import typescript from "../assets/typescript.svg";
 import nextjs from "../assets/nextjs.svg";
-import spotify from "../assets/spotify.png";
+import spotify from "../assets/spotify.svg";
+import travel from "../assets/travel.svg";
 
 
 
@@ -36,6 +37,14 @@ const projectsData = [
     technologies: [react, tailwind],
     githubLink: "https://github.com/yourusername/palmeiras-website",
     viewProjectLink: "https://palmeiras-rho.vercel.app/",
+  },
+  {
+    image: travel,
+    title: "Travel App",
+    description: "Responsive UI with a modern aesthetic for a camp travel website, ensuring a seamless and engaging online experience for users.",
+    technologies: [nextjs, react, tailwind],
+    githubLink: "https://github.com/euortiz/travel_app",
+    viewProjectLink: "https://travel-app-one-kappa.vercel.app/"
   },
   {
     image: bank,
