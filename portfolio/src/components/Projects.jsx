@@ -1,14 +1,15 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import React from "react";
+import React, { useState } from "react";
 import github from "../assets/github.svg";
-import projectsData from "./projectsData";
+import projectsData from "../utils/projectsData";
 import Slider from "react-slick";
+import Tabs from "../components/Tabs";
 
 
 const Projects = () => {
+  const [activeTab, setActiveTab] = useState("web"); // default to "web"
 
-  
       var settings = {
       dots: true,
       infinite: false,
@@ -44,6 +45,16 @@ const Projects = () => {
       ]
     };
 
+     // Filter projects based on the active tab
+  const filteredProjects = projectsData.filter((project) => {
+    if (activeTab === "web") {
+      return project.categorie === "web"
+    } else if (activeTab === "mobile") {
+      return project.categorie === "mobile"
+    }
+    return true; // show all projects if activeTab is not "web" or "mobile"
+  });
+
   return (
     <div
       className="flex flex-col xl:px-40 md:px-10 lg:px-15 px-5 items-center justify-center lg:gap-10"
@@ -53,9 +64,10 @@ const Projects = () => {
         PROJECTS
       </h1>
 
-    <Slider {...settings} className="w-[90%]">
+      <Tabs setActiveTab={setActiveTab} />
 
-      {projectsData.map((project, index) => (
+    <Slider {...settings} className="w-[90%]">
+    {filteredProjects.map((project, index) => (
         <div
           key={index}
           className="items-center justify-center bg-cinza p-2 rounded-[27px] mb-5 shadow-xl"
@@ -64,6 +76,7 @@ const Projects = () => {
             <img
               src={project.image}
               className="rounded-[27px] w-auto h-auto"
+              loading="eager"
               alt="Project Image"
             />
           </div>

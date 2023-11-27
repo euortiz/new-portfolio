@@ -20,7 +20,7 @@ const Hero = () => {
             Welcome to my digital garden. 🌱
           </p>
           <p className="text-white font-poppins text-[1rem] xl:w-[35em]">
-            I'm a front-end developer with expertise in React. I thrive on new
+            I'm a front-end/mobile developer with expertise in React. I thrive on new
             challenges and I'm always eager to learn new technologies. Let's
             create something amazing together!Contact me for any questions or
             comments
@@ -80,7 +80,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="animate__animated animate__fadeInRight my-10 ">
-        <img src={perfil} className="md:w-[600px] h-auto w-[300px]" alt="Gustavo photo"/>
+        <img src={perfil} className="lg:w-[600px] h-auto w-[300px]" alt="Gustavo photo" loading="eager"/>
       </div>
     </div>
   );

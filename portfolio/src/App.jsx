@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Tabs from "./components/Tabs";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";

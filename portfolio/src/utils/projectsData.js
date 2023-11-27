@@ -15,12 +15,25 @@ import typescript from "../assets/typescript.svg";
 import nextjs from "../assets/nextjs.svg";
 import spotify from "../assets/spotify.svg";
 import travel from "../assets/travel.svg";
+import job_search from "../assets/job_search.svg"
 
 
-
+const mobile = 'mobile';
+const web = 'web';
 
 const projectsData = [
   {
+    categorie: mobile,
+    image: job_search,
+    title: "Job Search",
+    description:
+      "This application allows you to search for existing job vacancies and returns results based on your search.",
+    technologies: [react],
+    githubLink: "https://github.com/euortiz/react_native_jobs_search_app",
+    viewProjectLink: "https://expo.dev/accounts/euortiz/projects/react_native_jobs/updates/ec6fe958-1995-43e7-8629-aa66fd6bce7c",
+  },
+  {
+    categorie: web,
     image: carprojeto,
     title: "CarHub",
     description:
@@ -30,6 +43,7 @@ const projectsData = [
     viewProjectLink: "https://car-store-2v8q.vercel.app/",
   },
   {
+    categorie: web,
     image: palmeiras,
     title: "Palmeiras Website",
     description:
@@ -39,6 +53,7 @@ const projectsData = [
     viewProjectLink: "https://palmeiras-rho.vercel.app/",
   },
   {
+    categorie: web,
     image: travel,
     title: "Travel App",
     description: "Responsive UI with a modern aesthetic for a camp travel website, ensuring a seamless and engaging online experience for users.",
@@ -47,6 +62,7 @@ const projectsData = [
     viewProjectLink: "https://travel-app-one-kappa.vercel.app/"
   },
   {
+    categorie: web,
     image: bank,
     title: "Modern Bank",
     description:
@@ -56,6 +72,7 @@ const projectsData = [
     viewProjectLink: "http://gusta-project-bapp.surge.sh/",
   },
   {
+    categorie: web,
     image: guspotilist,
     title: "Guspotilist",
     description:
@@ -65,6 +82,7 @@ const projectsData = [
     viewProjectLink: "https://gustilist.surge.sh/",
   },
   {
+    categorie: web,
     image: ooptodo,
     title: "OOP TODO-LIST",
     description:
@@ -74,6 +92,7 @@ const projectsData = [
     viewProjectLink: "https://oop-todo-list123.surge.sh/",
   },
   {
+    categorie: web,
     image: elpuerto,
     title: "El Puerto Café",
     description:
